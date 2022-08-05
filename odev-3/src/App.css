@@ -1,0 +1,30 @@
+.navbar{
+  min-height: 100vh;
+  background: url("../public/images/cover.jpg")  no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  padding-top: 13% ;
+}
+.navbar button{
+  width: 20%;
+  height: 60px;
+  color: aliceblue;
+  font-size: large;
+  font-family: cursive;
+}
+.header{
+  background-color: rgb(229, 232, 235);
+  padding: 10% 10%;
+
+}
+.header img{
+  width: 60%;
+  margin-left: 10%;
+}
+a > .fa-2x{
+  color: aliceblue;
+}
+a > .fa-2x:hover{
+  color: rgb(255, 187, 0);
+}
+
