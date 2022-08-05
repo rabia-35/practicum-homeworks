@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+.first {
+    background-color: rgb(246, 234, 250);  
+}
+.nav{
+    background: url("https://blog.upskillist.com/wp-content/uploads/2021/12/New-Project-38.png") no-repeat;
+    background-size: cover;
+    padding: 10% 40%;
+}
+.nav input{
+    margin-top: 15px;
+}
+.second {
+    border-style: outset;
+     border-color: violet; 
+     border-width: 3mm;
+     background-color: rgb(240, 226, 235);
+}
+.fns {
+    background-color: rgb(246, 234, 250);  
+    text-align: center;
+    margin: 0 auto;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.fns img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+h3 {
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 0;
+}
+p {
+    font-family: cursive;
+    margin-bottom: 0;
+}
+.arka {
+    background-color: rgb(196, 211, 212);
+}
