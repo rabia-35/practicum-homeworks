@@ -20,7 +20,7 @@ input.searche {
 input.searche::placeholder {
   font-size: 18px;
   color: gray;
-  background-image: url(/assets/search-solid.svg);
+  background-image: url(/week2-homeworks/bootstrap-odev3/assets/search-solid.svg);
   background-repeat: no-repeat;
   background-size: 8%;
   background-position-x: right;
@@ -75,7 +75,7 @@ input.content::placeholder {
   font-weight: bolder;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/assets/edit-regular.svg);
+  background-image: url(/week2-homeworks/bootstrap-odev3/assets/edit-regular.svg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position-y:center;
