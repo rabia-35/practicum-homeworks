@@ -72,3 +72,15 @@ margin-left: 192px;
   border-style: none;
     
 }
+
+/*Mobil*/
+@media (max-width: 575.98px) { 
+.storyphoto{
+  width: 30px;
+  height: 30px;
+  margin-top: 8px;
+}
+.storytext{
+  font-size:small;
+}
+}
