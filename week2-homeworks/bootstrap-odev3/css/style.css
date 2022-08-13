@@ -55,12 +55,12 @@ button.mediatext:hover {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   color: #5f5f5f;
+  margin-top: 3%;
 }
 
 i {
   color: gray;
   margin-top: 8px;
-  margin-left: 20px;
   text-align: center;
 }
 i:hover {
@@ -79,7 +79,7 @@ input.content::placeholder {
   background-repeat: no-repeat;
   background-size: auto;
   background-position-y:center;
-  padding-left: 7%;
+  padding-left: 10%;
 }
 
 div.card {
@@ -143,6 +143,25 @@ button.ref:hover {
   font-size: 14px;
   margin-left: 8px;
 }
-span>.btn-light{
-  margin-top: 3%;
+.card-footer .ref{
+  width: 24%;
+  padding: 1% 0;
+}
+
+@media(max-width:576px){
+  .card-header .rounded-circle{
+    margin-left: 38% !important;
+  }
+ 
+}
+@media(min-width:577px) and (max-width:1200px){
+  .mediatext{
+    min-width: 24%;
+    padding: 1% 0;
+    font-size: 70%;
+   }
+   .card-footer .ref{
+    justify-content:space-around ;
+    width: 23%;
+   }
 }
