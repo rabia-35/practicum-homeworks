@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linkedin</title>
-    <link rel="stylesheet" href="/week2-homeworks/bootstrap-odev3/css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link
       rel="stylesheet"
@@ -14,13 +14,10 @@
     />
   </head>
   <body class="body">
-    <!--the beginning of the navbar -->
-    <!--ı used fixed-top to fix the nevbar up and navbar-light for color  -->
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light navbarbg fixed-top px-5">
       <a class="navbar-brand" href="#"
-        >
-    <!--ı used fa-lg to size of the icon-->
-        <i
+        ><i
           class="fab fa-linkedin fa-lg"
           style="color: #0a66c2; font-size: 2.4rem"
         ></i
@@ -89,9 +86,8 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-        <!-- ı used rounded-circle to make the image round-->
               <img
-                src="https://picsum.photos/100" 
+                src="https://media-exp1.licdn.com/dms/image/C4D03AQE838cfvft2Rg/profile-displayphoto-shrink_100_100/0/1641660642881?e=1648080000&v=beta&t=Hr3uBiBlNhd5nZNXCJWtBfBLTn5i1gMsRl1JWvn7kvU" 
                 class="rounded-circle"
                 style="
                   width: 25px;
@@ -120,18 +116,22 @@
         </ul>
       </div>
     </nav>
-    <!--end of the navbar-->
+
     <div class="container mt-5">
       <div class="row">
-        <!-- left panel -->
+        <!-- sol panel -->
         <div class=" col-3">
-          <!-- left panel -->
-          <div class="card" style="width: 15rem">
-            <div class="card-header"  style="background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F12%2Fbusiness-3605367_1920-1200x741.jpg);
-                height: 75px;"
+          <!-- sol panel -->
+          <div class="card" style="width: 14rem">
+            <div
+              class="card-header"
+              style="
+                background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F12%2Fbusiness-3605367_1920-1200x741.jpg);
+                height: 75px;
+              "
             >
               <img
-                src="https://picsum.photos/100"
+                src="https://media-exp1.licdn.com/dms/image/C4D03AQE838cfvft2Rg/profile-displayphoto-shrink_100_100/0/1641660642881?e=1648080000&v=beta&t=Hr3uBiBlNhd5nZNXCJWtBfBLTn5i1gMsRl1JWvn7kvU"
                 class="rounded-circle mt-2"
                 style="
                   width: 100px;
@@ -159,7 +159,6 @@
               <hr />
               <div class="card-text">
                 <div>
-                <!-- ı used float-right to justify text to the right-->
                   <span class="view">Profilinizi kimler görüntüledi </span
                   ><span class="float-right view mt-1" style="color: #0a66c2"
                     >447</span
@@ -181,7 +180,9 @@
             </div>
           </div>
           <div class="card mt-2 " style="width: 14rem">
-            <div class="card-header"
+            <div
+              class="card-header"
+              style="margin-bottom: -22px; font-size: 18px"
             >
               Sayfalarım
             </div>
@@ -307,9 +308,7 @@
                     class="fas fa-hashtag"
                     style="font-size: 13px; font-weight: bold"
                   ></i
-                  >
-          <!-- i used font-weight-bolder for the thickness of the text-->
-                  <span
+                  ><span
                     class="ml-2 font-weight-bolder"
                     style="font-size: 15px; color: #5f5f5f"
                     >front-end</span
@@ -325,7 +324,7 @@
           </div>
         </div>
 
-       <!-- Middle panel -->
+        <!-- orta panel -->
         <div class="col-6" >
           <div class="card ">
             <div class="card-body ">
@@ -335,9 +334,7 @@
                 placeholder="Bir gönderi başlat"
               />
               <span
-                >
-       <!-- ı used btn-light to change button color-->
-                <button class="mediatext btn btn-light">
+                ><button class="mediatext btn btn-light">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" width="24" height="24" fill="#70B5F9" focusable="false">
   <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z"></path>
 </svg><span class="ms-1 mediatext">Fotoğraf</span>
@@ -370,12 +367,10 @@
             <hr />
           </div>
           <div class="card">
-      <!-- i used border-0 for remove border-->
             <div class="card-header bg-white border-0">
               <span>
               <img src="https://picsum.photos/25/25" class="postphoto">
               <span class="posttext align-top"><a href="https://www.linkedin.com/in/malan/" target="_blank" style="color: #212529;">David J. Malan</a></span>
-      <!--i used float-end to justify text to the end-->
               <span class="float-end">
                 <i class="fas fa-ellipsis-h fa-md"></i>
               </span>
@@ -398,9 +393,7 @@
               <span class="ms-2 align-middle" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px; color: #474747;"><img src="https://static-exp1.licdn.com/sc/h/7fx9nkd7mx8avdpqm5hqcbi97" alt="">  958</span>
               <div class="card-footer bg-white mt-1">
                 <span
-                >
-        <!--i used btn-sm to size of button-->
-                <button class="ref btn btn-light btn-sm">
+                ><button class="ref btn btn-light btn-sm">
                   <i class="far fa-thumbs-up fa-md" style="font-size: 1.2rem;"
                     ><span class="ms-2 mediatext">Beğen</span></i>
                 </button></span>
@@ -502,7 +495,8 @@
               <img
                 src="https://media-exp1.licdn.com/dms/image/C5622AQFd6t5TzxHkdw/feedshare-shrink_800/0/1642001049536?e=1645056000&v=beta&t=cxVcSi_6fknlKoQgrbB9QceZruqTPxzLDBmIhTPBZ1c"
                 class="card-img-top mb-1"
-                alt="..."/>
+                alt="..."
+              />
               </div>
               <span class="ms-3"><img src="https://static-exp1.licdn.com/sc/h/d310t2g24pvdy4pt1jkedo4yb" alt=""></span>
               <span class="ms-2"><img src="https://static-exp1.licdn.com/sc/h/5thsbmikm6a8uov24ygwd914f" alt=""></span>
@@ -541,7 +535,7 @@
           </div>
         </div>
 
-        <!-- Right panel -->
+        <!-- sağ panel -->
         <div class="col-3 ">
           <div class="card" style="width: 19rem">
             <div class="card-header bg-white border-0">
@@ -550,7 +544,6 @@
             </div>
             <div class="card-title">
               <div class="ms-3 mt-2">
-      <!-- i used float-start to justfy text to the start-->
                 <span class="float-start">
                   <img
                   src="https://picsum.photos/id/20/25/25"
@@ -562,9 +555,7 @@
                 </span>
                
                 <span class="float-end me-3"
-                  >
-        <!-- i used btn-outline-primary for button with blue outline-->
-                  <button
+                  ><button
                     class="btn btn-outline-primary btn-sm"
                     style="border-radius: 50px"
                   >
@@ -663,7 +654,6 @@
                 </li>
               </ol>
             </div>
-      <!-- i ısed text-center for center the text-->
             <div
               class="card-footer bg-white border-0 text-center"
               style="color: #0a66c2; font-size: 24px; margin-top: -25px; font-weight: bold;"
@@ -719,8 +709,7 @@
         </div>
       </div>
     </div>
-    <!-- Chat section-->
-    <!-- ı used fixed-bootom to fix the nav down-->
+    <!-- mesajlaşma -->
     <nav
       class="navbar navbar-expand-xl navbar-light bg-white position-sticky fixed-bottom border"
       style="height: 50px;width: 350px; position: -webkit-sticky; border-radius: 5px; margin-left: auto; right: 15px;"
@@ -731,7 +720,7 @@
           style="width: 30px; height: 30px; border-radius: 50%; margin-left: 10px;"
       /></a>
       <span style="font-size: 14px; font-weight: bold; font-family:Arial, Helvetica, sans-serif;"><strong>Mesajlaşma</strong></span>
-      <span class="offset-3"><img src="/week2-homeworks/bootstrap-odev3/assets/edit-regular.svg" width="15px" height="15px" ></span>
+      <span class="offset-3"><img src="/assets/edit-regular.svg" width="15px" height="15px" ></span>
       <span><i class="fas fa-ellipsis-h fa-sm ms-3"></i></span>
       <span><i class="fas fa-chevron-up fa-sm ms-3"></i></span>
     </nav>
