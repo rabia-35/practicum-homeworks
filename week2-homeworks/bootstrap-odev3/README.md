@@ -1,5 +1,8 @@
-# linkedin-clone-css
-## Linkedin Clone Css Özelliklerini Ekleme
-## Proje görselleri
-![linkedin](https://user-images.githubusercontent.com/85495654/150796026-9fea72fb-8e64-410d-8456-a3e2d3ddcd4f.png)
-![linkedin2](https://user-images.githubusercontent.com/85495654/150796204-624673fd-3679-4b0d-958d-de383a2aa095.png)
+# Linkedin Clone CSS
+Adding css and bootstrap information to linkedin clone 
+* Html
+* Css
+* Bootstrap
+
+## Project  Video
+https://user-images.githubusercontent.com/85495654/184501027-e1649ced-079b-42a6-ac86-8443fd91e42e.mp4
