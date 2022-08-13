@@ -88,7 +88,7 @@ div.card {
 
 .header {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: medium;
   font-weight: bolder;
   
 }
@@ -148,20 +148,41 @@ button.ref:hover {
   padding: 1% 0;
 }
 
+.card-header .rounded-circle{
+  max-width: 50%;
+  margin-left: 30%;
+}
+
+
 @media(max-width:576px){
   .card-header .rounded-circle{
-    margin-left: 38% !important;
+    width: 30%;
+    margin-left: 35%; 
   }
- 
+  .card-footer .ref{
+    width: 23%;
+    font-size: smaller;
+  }
+  .mediatext{
+    font-size: 65%;
+  }
+  .card-body .btn{
+    width: 23%;
+  }
+  .header{
+    margin-top: 10% !important;
+  }
 }
 @media(min-width:577px) and (max-width:1200px){
   .mediatext{
-    min-width: 24%;
-    padding: 1% 0;
     font-size: 70%;
    }
    .card-footer .ref{
     justify-content:space-around ;
     width: 23%;
+   }
+   .header{
+    font-size: smaller;
+    
    }
 }
