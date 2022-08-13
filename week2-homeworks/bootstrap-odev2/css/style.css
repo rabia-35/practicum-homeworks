@@ -7,10 +7,7 @@
   background-size: 6%;
   background-repeat: no-repeat;
 }
-body{
-  padding-top: 3%;
 
-}
 input.empty {
     font-family: FontAwesome;
     font-style: normal;
@@ -29,10 +26,9 @@ nav{
   background-color: white;
   height: 54px;
 }
-.storyphoto {
+.card-body .storyphoto {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
   border: 2px solid rgb(238, 39, 82);
   margin-right: 7px;
 
@@ -58,10 +54,7 @@ nav{
   color: #212529;
 }
 .logo{
-margin-left: 192px;
-}
-.middlearea{
-  max-height: 200px !important;
+margin-left: 7%;
 }
 .three{
  margin-left: 75%;
@@ -74,13 +67,9 @@ margin-left: 192px;
 }
 
 /*Mobil*/
-@media (max-width: 575.98px) { 
-.storyphoto{
-  width: 30px;
-  height: 30px;
-  margin-top: 8px;
-}
+@media (max-width: 700px) { 
+
 .storytext{
-  font-size:small;
+  font-size: 49%;
 }
 }
